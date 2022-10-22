@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "73498f9279518013e76126178135130a",
+    "content-hash": "e80b219b1673be09d662a29d7aad2430",
     "packages": [
         {
             "name": "beberlei/doctrineextensions",
@@ -2221,16 +2221,16 @@
         },
         {
             "name": "gesdinet/jwt-refresh-token-bundle",
-            "version": "v1.0.1",
+            "version": "v1.1.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/markitosgv/JWTRefreshTokenBundle.git",
-                "reference": "1167006f2973064a81f1671e89c3c495969c6a50"
+                "reference": "8970ae1a602fb74e434964d03c969d883cfed376"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/markitosgv/JWTRefreshTokenBundle/zipball/1167006f2973064a81f1671e89c3c495969c6a50",
-                "reference": "1167006f2973064a81f1671e89c3c495969c6a50",
+                "url": "https://api.github.com/repos/markitosgv/JWTRefreshTokenBundle/zipball/8970ae1a602fb74e434964d03c969d883cfed376",
+                "reference": "8970ae1a602fb74e434964d03c969d883cfed376",
                 "shasum": ""
             },
             "require": {
@@ -2268,7 +2268,7 @@
             "type": "symfony-bundle",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "1.0-dev"
+                    "dev-master": "1.x-dev"
                 }
             },
             "autoload": {
@@ -2295,9 +2295,9 @@
             ],
             "support": {
                 "issues": "https://github.com/markitosgv/JWTRefreshTokenBundle/issues",
-                "source": "https://github.com/markitosgv/JWTRefreshTokenBundle/tree/v1.0.1"
+                "source": "https://github.com/markitosgv/JWTRefreshTokenBundle/tree/v1.1.1"
             },
-            "time": "2022-01-25T11:32:28+00:00"
+            "time": "2022-04-11T14:46:00+00:00"
         },
         {
             "name": "google/apiclient",
@@ -7750,16 +7750,16 @@
         },
         {
             "name": "stella-maris/clock",
-            "version": "0.1.5",
+            "version": "0.1.6",
             "source": {
                 "type": "git",
-                "url": "git@gitlab.com:stella-maris/clock.git",
-                "reference": "447879c53ca0b2a762cdbfba5e76ccf4deca9158"
+                "url": "https://github.com/stella-maris-solutions/clock.git",
+                "reference": "a94228dac03c9a8411198ce8c8dacbbe99c930c3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://gitlab.com/api/v4/projects/stella-maris%2Fclock/repository/archive.zip?sha=447879c53ca0b2a762cdbfba5e76ccf4deca9158",
-                "reference": "447879c53ca0b2a762cdbfba5e76ccf4deca9158",
+                "url": "https://api.github.com/repos/stella-maris-solutions/clock/zipball/a94228dac03c9a8411198ce8c8dacbbe99c930c3",
+                "reference": "a94228dac03c9a8411198ce8c8dacbbe99c930c3",
                 "shasum": ""
             },
             "require": {
@@ -7789,7 +7789,11 @@
                 "point in time",
                 "psr20"
             ],
-            "time": "2022-08-05T07:21:25+00:00"
+            "support": {
+                "issues": "https://github.com/stella-maris-solutions/clock/issues",
+                "source": "https://github.com/stella-maris-solutions/clock/tree/0.1.6"
+            },
+            "time": "2022-09-27T15:03:11+00:00"
         },
         {
             "name": "symfony/acl-bundle",
