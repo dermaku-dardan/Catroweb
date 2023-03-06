@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "73498f9279518013e76126178135130a",
+    "content-hash": "0a9d9100fc694e2938ed25432d037f61",
     "packages": [
         {
             "name": "beberlei/doctrineextensions",
@@ -15842,16 +15842,16 @@
         },
         {
             "name": "phpstan/phpstan",
-            "version": "1.8.10",
+            "version": "1.10.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/phpstan/phpstan.git",
-                "reference": "0c4459dc42c568b818b3f25186589f3acddc1823"
+                "reference": "5419375b5891add97dc74be71e6c1c34baaddf64"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phpstan/phpstan/zipball/0c4459dc42c568b818b3f25186589f3acddc1823",
-                "reference": "0c4459dc42c568b818b3f25186589f3acddc1823",
+                "url": "https://api.github.com/repos/phpstan/phpstan/zipball/5419375b5891add97dc74be71e6c1c34baaddf64",
+                "reference": "5419375b5891add97dc74be71e6c1c34baaddf64",
                 "shasum": ""
             },
             "require": {
@@ -15881,7 +15881,7 @@
             ],
             "support": {
                 "issues": "https://github.com/phpstan/phpstan/issues",
-                "source": "https://github.com/phpstan/phpstan/tree/1.8.10"
+                "source": "https://github.com/phpstan/phpstan/tree/1.10.3"
             },
             "funding": [
                 {
@@ -15897,7 +15897,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2022-10-17T14:23:35+00:00"
+            "time": "2023-02-25T14:47:13+00:00"
         },
         {
             "name": "phpstan/phpstan-doctrine",
@@ -17175,28 +17175,25 @@
         },
         {
             "name": "rector/rector",
-            "version": "0.14.6",
+            "version": "0.15.20",
             "source": {
                 "type": "git",
                 "url": "https://github.com/rectorphp/rector.git",
-                "reference": "e61574288661334155de6e5f0f45497285abad5d"
+                "reference": "c3c4fb38255a671c4854846dce08a059c76f358a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/rectorphp/rector/zipball/e61574288661334155de6e5f0f45497285abad5d",
-                "reference": "e61574288661334155de6e5f0f45497285abad5d",
+                "url": "https://api.github.com/repos/rectorphp/rector/zipball/c3c4fb38255a671c4854846dce08a059c76f358a",
+                "reference": "c3c4fb38255a671c4854846dce08a059c76f358a",
                 "shasum": ""
             },
             "require": {
                 "php": "^7.2|^8.0",
-                "phpstan/phpstan": "^1.8.7"
+                "phpstan/phpstan": "^1.10.1"
             },
             "conflict": {
                 "rector/rector-doctrine": "*",
                 "rector/rector-downgrade-php": "*",
-                "rector/rector-laravel": "*",
-                "rector/rector-php-parser": "*",
-                "rector/rector-phpoffice": "*",
                 "rector/rector-phpunit": "*",
                 "rector/rector-symfony": "*"
             },
@@ -17206,7 +17203,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-main": "0.14-dev"
+                    "dev-main": "0.15-dev"
                 }
             },
             "autoload": {
@@ -17219,9 +17216,15 @@
                 "MIT"
             ],
             "description": "Instant Upgrade and Automated Refactoring of any PHP code",
+            "keywords": [
+                "automation",
+                "dev",
+                "migration",
+                "refactoring"
+            ],
             "support": {
                 "issues": "https://github.com/rectorphp/rector/issues",
-                "source": "https://github.com/rectorphp/rector/tree/0.14.6"
+                "source": "https://github.com/rectorphp/rector/tree/0.15.20"
             },
             "funding": [
                 {
@@ -17229,7 +17232,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2022-10-15T22:58:22+00:00"
+            "time": "2023-03-05T11:25:23+00:00"
         },
         {
             "name": "ringcentral/psr7",
